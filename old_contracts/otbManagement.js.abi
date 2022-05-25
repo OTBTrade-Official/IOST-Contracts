@@ -1,0 +1,66 @@
+{
+    "lang": "javascript",
+    "version": "1.0.0",
+  "abi": [
+    {
+      "name": "can_update",
+      "args": [
+        "string"
+      ],
+      "amountLimit": [],
+      "description": ""
+    },
+    {
+      "name": "updateInit",
+      "args": [],
+      "amountLimit": [],
+      "description": ""
+    },
+    {
+      "name": "drawLottery",
+      "args": [
+        "string"
+      ],
+      "amountLimit": [
+        {
+          "token": "*",
+          "val": "unlimited"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "name": "addTicket",
+      "args": [
+        "string"
+      ],
+      "amountLimit": [],
+      "description": ""
+    },
+    {
+      "name": "addLiquidityPairs",
+      "args": [
+        "string",
+        "string",
+        "string"
+      ],
+      "amountLimit": [],
+      "description": ""
+    },
+    {
+      "name": "checkReferral",
+      "args": [
+        "string",
+        "string"
+      ],
+      "amountLimit": [],
+      "description": ""
+    },
+    {
+      "name": "updateErrors",
+      "args": [],
+      "amountLimit": [],
+      "description": ""
+    }
+  ]
+}

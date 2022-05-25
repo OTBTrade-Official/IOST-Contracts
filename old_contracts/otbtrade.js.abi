@@ -1,0 +1,131 @@
+{
+    "lang": "javascript",
+    "version": "1.0.0",
+  "abi": [
+    {
+      "name": "can_update",
+      "args": [
+        "string"
+      ],
+      "amountLimit": [],
+      "description": ""
+    },
+    {
+      "name": "updateInit",
+      "args": [],
+      "amountLimit": [],
+      "description": ""
+    },
+    {
+      "name": "listToken",
+      "args": [
+        "string",
+        "string",
+        "string"
+      ],
+      "amountLimit": [],
+      "description": ""
+    },
+    {
+      "name": "buyDiscount",
+      "args": [
+        "string"
+      ],
+      "amountLimit": [
+        {
+          "token": "*",
+          "val": "unlimited"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "name": "buyToken",
+      "args": [
+        "string",
+        "string",
+        "string",
+        "string"
+      ],
+      "amountLimit": [
+        {
+          "token": "*",
+          "val": "unlimited"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "name": "handleTrade",
+      "args": [ "string" ],
+      "amountLimit": [
+        {
+          "token": "*",
+          "val": "unlimited"
+        }
+      ],
+      "description": ""
+
+    },
+    {
+      "name": "sellToken",
+      "args": [
+        "string",
+        "string",
+        "string",
+        "string"
+      ],
+      "amountLimit": [
+        {
+          "token": "*",
+          "val": "unlimited"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "name": "liquidityOrder",
+      "args": [
+        "string",
+        "string",
+        "string",
+        "bool",
+        "string"
+      ],
+      "amountLimit": [
+        {
+          "token": "*",
+          "val": "unlimited"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "name": "cancelLiquidity",
+      "args": [
+        "string",
+        "string"
+      ],
+      "amountLimit": [
+        {
+          "token": "*",
+          "val": "unlimited"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "name": "cancelOrder",
+      "args": [
+        "string"
+      ],
+      "amountLimit": [
+        {
+          "token": "*",
+          "val": "unlimited"
+        }
+      ],
+      "description": ""
+    }
+  ]
+}

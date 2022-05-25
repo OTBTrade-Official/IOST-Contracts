@@ -1,0 +1,56 @@
+{
+    "lang": "javascript",
+    "version": "1.0.0",
+    "abi": [
+        {
+            "name": "can_update",
+            "args": [
+                "string"
+            ],
+            "amountLimit": [],
+            "description": ""
+        },
+        {
+            "name": "updateInit",
+            "args": [],
+            "amountLimit": [],
+            "description": ""
+        },
+        {
+            "name": "stake",
+            "args": [
+                "string"
+            ],
+            "amountLimit": [{"token": "*", "val": "unlimited"}],
+            "description": ""
+        },
+        {
+            "name": "unstakeFreeze",
+            "args": [
+                "string"
+            ],
+            "amountLimit": [{"token": "*", "val": "unlimited"}],
+            "description": ""
+        },
+        {
+            "name": "unstakeNoFreeze",
+            "args": [
+                "string"
+            ],
+            "amountLimit": [{"token": "*", "val": "unlimited"}],
+            "description": ""
+        },
+        {
+            "name": "payStakeHolders",
+            "args": [],
+            "amountLimit": [{"token": "*", "val": "unlimited"}],
+            "description": ""
+        },
+        {
+            "name": "claimReward",
+            "args": [],
+            "amountLimit": [{"token": "*", "val": "unlimited"}],
+            "description": ""
+        }
+    ]
+}
