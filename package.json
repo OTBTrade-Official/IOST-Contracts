@@ -1,0 +1,22 @@
+{
+  "name": "iost-contracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mockContract.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OTBTrade-Official/IOST-Contracts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OTBTrade-Official/IOST-Contracts/issues"
+  },
+  "homepage": "https://github.com/OTBTrade-Official/IOST-Contracts#readme",
+  "devDependencies": {
+    "eslint": "^8.16.0"
+  }
+}
