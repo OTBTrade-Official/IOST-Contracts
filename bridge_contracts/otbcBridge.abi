@@ -1,0 +1,57 @@
+{
+    "lang": "javascript",
+    "version": "1.0.0",
+    "abi": [
+        {
+            "name": "can_update",
+            "args": [
+                "string"
+            ],
+            "amountLimit": [],
+            "description": ""
+        },
+        {
+            "name": "updateInit",
+            "args": [],
+            "amountLimit": [],
+            "description": ""
+        },
+        {
+            "name": "bridgeToken",
+            "args": [
+                "string",
+                "number",
+                "number"
+            ],
+            "amountLimit": [
+                {
+                "token": "*",
+                "val": "unlimited"
+                }
+            ],
+            "description": ""
+        },
+        {
+            "name": "updateBridgeTx",
+            "args": [
+                "number",
+                "string"
+            ],
+            "amountLimit": [
+                {
+                "token": "*",
+                "val": "unlimited"
+                }
+            ],
+            "description": ""
+        },
+        {
+            "name": "updateManager",
+            "args": [
+                "string"
+            ],
+            "amountLimit": [],
+            "description": ""
+        }
+    ]
+}

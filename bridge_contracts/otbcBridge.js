@@ -94,14 +94,16 @@ class OTBCBridge {
   }
 
   _assignId() {
-    const id = JSON.parse(this.g("id"));
-    this.p("id", (id + 1).toString(), tx.publisher);
+    const id = JSON.parse(this._g("id"));
+    this._p("id", (id + 1).toString(), tx.publisher);
     return id;
   }
 
   // Returns the manager
   _isManager() {
-    return tx.publisher === this._g("manager");
+    if(tx.publisher !== this._g("manager")){
+      throw "Not authorized"
+    }  
   }
 
   // returns a fixed precision number.

@@ -1,0 +1,3 @@
+Contract22dR8jfJcPDyLrc8LZky1N4DkTvoLpQoK1Zj5zMe1r8f
+
+iwallet --account otb_admin -s 18.209.137.246:30002 publish --update otbcBridge.js otbcBridge.abi Contract22dR8jfJcPDyLrc8LZky1N4DkTvoLpQoK1Zj5zMe1r8f --amount_limit “*:unlimited” --gas_limit “4000000”
